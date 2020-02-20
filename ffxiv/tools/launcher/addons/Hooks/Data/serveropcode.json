@@ -1,10 +1,10 @@
 {
-  "CfNotifyPop": 504,
-  "CfPreferredRole": 810,
-  "MarketTaxRates": 606,
-  "MarketBoardItemRequestStart": 808,
-  "MarketBoardOfferings": 351,
-  "MarketBoardHistory": 275,
+  "CfNotifyPop": 604,
+  "CfPreferredRole": 799,
+  "MarketTaxRates": 717,
+  "MarketBoardItemRequestStart": 778,
+  "MarketBoardOfferings": 574,
+  "MarketBoardHistory": 960,
   "ActorControlSelf": 227,
   "CSkillHandler": 446
 }
