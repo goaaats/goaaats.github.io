@@ -1270,7 +1270,7 @@ var t = {
     },
     {
       "s": "BERLY",
-      "h": "<span class=\"sinv\"><span class=\"s5\">BAHAHA<span class=\"s6\">HAHAH<span class=\"s7\">AHA!!</span></span>\\LECLEAR</span>",
+      "h": "<span class=\"sinv\"><span class=\"s5\">BAHAHA<span class=\"s6\">HAHAH<span class=\"s7\">AHA!!</span></span></span>",
       "b": null,
       "fs": null,
       "fi": null
@@ -18734,7 +18734,7 @@ var t = {
     },
     {
       "s": "ROCOCO",
-      "h": "\\$For my first ever masterpiece, I will only charge you 1000 CLAMS! Have you decided to assist me on my journey of self-discovery?",
+      "h": "[current currency]For my first ever masterpiece, I will only charge you 1000 CLAMS! Have you decided to assist me on my journey of self-discovery?",
       "b": null,
       "fs": null,
       "fi": null
@@ -18804,7 +18804,7 @@ var t = {
     },
     {
       "s": "ROCOCO",
-      "h": "\\$This next masterpiece will cost you \\v[1000] CLAMS! Will you continue to assist me on my journey of self-discovery?",
+      "h": "[current currency]This next masterpiece will cost you \\v[1000] CLAMS! Will you continue to assist me on my journey of self-discovery?",
       "b": null,
       "fs": null,
       "fi": null
@@ -29393,14 +29393,14 @@ var t = {
     },
     {
       "s": "DINO",
-      "h": "\\$Here at DINO&#39;S DIG we have created the ultimate treasure-hunting adventure... which you can experience for the low price of 100 CLAMS!",
+      "h": "[current currency]Here at DINO&#39;S DIG we have created the ultimate treasure-hunting adventure... which you can experience for the low price of 100 CLAMS!",
       "b": null,
       "fs": null,
       "fi": null
     },
     {
       "s": "DINO",
-      "h": "\\$Are you ready to enjoy the fun and excitement of digging for treasure?",
+      "h": "[current currency]Are you ready to enjoy the fun and excitement of digging for treasure?",
       "b": null,
       "fs": null,
       "fi": null
@@ -29561,7 +29561,7 @@ var t = {
     },
     {
       "s": "DINO",
-      "h": "\\$Are you ready for another DINO-TASTIC adventure!?<br>It&#39;ll only cost you 100 CLAMS!",
+      "h": "[current currency]Are you ready for another DINO-TASTIC adventure!?<br>It&#39;ll only cost you 100 CLAMS!",
       "b": null,
       "fs": null,
       "fi": null
@@ -31487,14 +31487,14 @@ var t = {
     },
     {
       "s": "MAILBOX",
-      "h": "What do you think? Do you want it?\\$",
+      "h": "What do you think? Do you want it?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
     },
     {
       "s": "MAILBOX",
-      "h": "Excellent! Please take very good care of it! <br><span class=\"s3\"><span class=\"sinv\">Kekeke...\\LECLEAR</span>",
+      "h": "Excellent! Please take very good care of it! <br><span class=\"s3\"><span class=\"sinv\">Kekeke...</span>",
       "b": null,
       "fs": null,
       "fi": null
@@ -31508,7 +31508,7 @@ var t = {
     },
     {
       "s": "MAILBOX",
-      "h": "How does that sound? Do you want it?\\$",
+      "h": "How does that sound? Do you want it?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -31536,7 +31536,7 @@ var t = {
     },
     {
       "s": "MAILBOX",
-      "h": "Get ready for the deal of a lifetime!<br>1000 CLAMS, take it or leave it!\\$",
+      "h": "Get ready for the deal of a lifetime!<br>1000 CLAMS, take it or leave it![current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -31550,14 +31550,14 @@ var t = {
     },
     {
       "s": "MAILBOX",
-      "h": "Huff... How about... 500 CLAMS...\\$",
+      "h": "Huff... How about... 500 CLAMS...[current currency]",
       "b": null,
       "fs": null,
       "fi": null
     },
     {
       "s": "MAILBOX",
-      "h": "250 CLAMS?\\$",
+      "h": "250 CLAMS?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -31627,14 +31627,14 @@ var t = {
     },
     {
       "s": "GOOMAN",
-      "h": "This <span class=\"c3\">BOTTLED WATER</span> could be yours for the low, low price of \\v[635] CLAMS! Well, do you want it?\\$",
+      "h": "This <span class=\"c3\">BOTTLED WATER</span> could be yours for the low, low price of \\v[635] CLAMS! Well, do you want it?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
     },
     {
       "s": "GOOMAN",
-      "h": "This <span class=\"c3\">BOTTLED WATER</span> could be yours for the low, low price of \\v[635] CLAMS! Well, do you want it?\\$",
+      "h": "This <span class=\"c3\">BOTTLED WATER</span> could be yours for the low, low price of \\v[635] CLAMS! Well, do you want it?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -31690,7 +31690,7 @@ var t = {
     },
     {
       "s": "GOOMAN",
-      "h": "Unfortunately, the price has gone up since we last spoke... It&#39;s \\v[635] now, but I hope you&#39;ll still accept my offer! Heh heh...\\$",
+      "h": "Unfortunately, the price has gone up since we last spoke... It&#39;s \\v[635] now, but I hope you&#39;ll still accept my offer! Heh heh...[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -31774,7 +31774,7 @@ var t = {
     },
     {
       "s": "TOFU JASH",
-      "h": "Hello Sir or Madam. Would you be interested in purchasing some fine <span class=\"c3\">TOFU</span>? It will cost you exactly 1 CLAM.\\$",
+      "h": "Hello Sir or Madam. Would you be interested in purchasing some fine <span class=\"c3\">TOFU</span>? It will cost you exactly 1 CLAM.[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -32124,7 +32124,7 @@ var t = {
     },
     {
       "s": null,
-      "h": "A vending machine.<br>Buy a <span class=\"c3\">TASTY SODA</span> for 100 CLAMS?\\$",
+      "h": "A vending machine.<br>Buy a <span class=\"c3\">TASTY SODA</span> for 100 CLAMS?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -32236,7 +32236,7 @@ var t = {
     },
     {
       "s": "GOOMAN",
-      "h": "You look like you want some fresh <span class=\"c3\">MILK</span>, fresh from <span class=\"c11\">SEACOW FARMS</span>! It&#39;s the freshest fresh <span class=\"c3\">MILK</span> and will surely be refreshing for only 500 CLAMS!\\$",
+      "h": "You look like you want some fresh <span class=\"c3\">MILK</span>, fresh from <span class=\"c11\">SEACOW FARMS</span>! It&#39;s the freshest fresh <span class=\"c3\">MILK</span> and will surely be refreshing for only 500 CLAMS![current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -32250,7 +32250,7 @@ var t = {
     },
     {
       "s": "GOOMAN",
-      "h": "You wanna pose at this very unique and handcrafted cardboard cutout? It&#39;ll only cost you 100 CLAMS!\\$",
+      "h": "You wanna pose at this very unique and handcrafted cardboard cutout? It&#39;ll only cost you 100 CLAMS![current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -32264,7 +32264,7 @@ var t = {
     },
     {
       "s": "GOOMAN",
-      "h": "I have here a very, very unique <span class=\"c3\">SODA</span> made from the finest of <span class=\"c3\">BUTT PEACHES</span>. I&#39;m talking about the world-renown <span class=\"c3\">BUTT PEACH SODA</span>, yours now for only 600 CLAMS!\\$",
+      "h": "I have here a very, very unique <span class=\"c3\">SODA</span> made from the finest of <span class=\"c3\">BUTT PEACHES</span>. I&#39;m talking about the world-renown <span class=\"c3\">BUTT PEACH SODA</span>, yours now for only 600 CLAMS![current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -32278,7 +32278,7 @@ var t = {
     },
     {
       "s": "GOOMAN",
-      "h": "You look like you love danger. I got some good quality <span class=\"c5\">DYNAMITE</span> just waiting to be used... for the low price of 1500 CLAMS. Interested?\\$",
+      "h": "You look like you love danger. I got some good quality <span class=\"c5\">DYNAMITE</span> just waiting to be used... for the low price of 1500 CLAMS. Interested?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -33172,7 +33172,7 @@ var t = {
     },
     {
       "s": "HOT DOG GUY",
-      "h": "\\$You want a <span class=\"c3\">HOT DOG</span>? It&#39;ll only cost ya 100 CLAMS...<br>Come on... they&#39;re yummy.\\$",
+      "h": "[current currency]You want a <span class=\"c3\">HOT DOG</span>? It&#39;ll only cost ya 100 CLAMS...<br>Come on... they&#39;re yummy.[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -35019,7 +35019,7 @@ var t = {
     },
     {
       "s": "GIBS THE STATIONARY MUSICIAN",
-      "h": "Would you be able to spare 5 CLAMS? They g&#39;would<br>be a great help, since I am completely stationary.<br>I&#39;ll show you something <span class=\"sinv\">g&#39;wood</span> if you do!\\$",
+      "h": "Would you be able to spare 5 CLAMS? They g&#39;would<br>be a great help, since I am completely stationary.<br>I&#39;ll show you something <span class=\"sinv\">g&#39;wood</span> if you do![current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -35075,7 +35075,7 @@ var t = {
     },
     {
       "s": "WISE ROCK",
-      "h": "What kind of advice would you like me to give?\\$",
+      "h": "What kind of advice would you like me to give?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -35371,7 +35371,7 @@ var t = {
     },
     {
       "s": "BROWS",
-      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHHHHH<span class=\"s6\">HHHHHHH!!!\\LECLEAR</span></span>",
+      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHHHHH<span class=\"s6\">HHHHHHH!!!</span></span>",
       "b": null,
       "fs": null,
       "fi": null
@@ -35490,7 +35490,7 @@ var t = {
     },
     {
       "s": "BROWS",
-      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHH<span class=\"s6\">HHHHHHH<span class=\"s7\">HHHHHHHHH!!!\\LECLEAR</span></span></span>",
+      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHH<span class=\"s6\">HHHHHHH<span class=\"s7\">HHHHHHHHH!!!</span></span></span>",
       "b": null,
       "fs": null,
       "fi": null
@@ -35896,7 +35896,7 @@ var t = {
     },
     {
       "s": "BROWS",
-      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHHHHH<span class=\"s6\">HHHHHHH!!!\\LECLEAR</span></span>",
+      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHHHHH<span class=\"s6\">HHHHHHH!!!</span></span>",
       "b": null,
       "fs": null,
       "fi": null
@@ -36355,7 +36355,7 @@ var t = {
     },
     {
       "s": "WISE HUMPHREY",
-      "h": "<span class=\"sinv\">Whale hello there, friends!</span><br>Would you like a HUMPHREY HINT for 300 CLAMS?\\$",
+      "h": "<span class=\"sinv\">Whale hello there, friends!</span><br>Would you like a HUMPHREY HINT for 300 CLAMS?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -53267,7 +53267,7 @@ var t = {
     },
     {
       "s": null,
-      "h": "A vending machine.<br>Buy a <span class=\"c3\">TASTY SODA</span> for $1.00?\\$",
+      "h": "A vending machine.<br>Buy a <span class=\"c3\">TASTY SODA</span> for $1.00?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -56625,7 +56625,7 @@ var t = {
     },
     {
       "s": null,
-      "h": "A capsule machine.<br>Try your luck? It&#39;s only $1.00...\\$",
+      "h": "A capsule machine.<br>Try your luck? It&#39;s only $1.00...[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -57306,7 +57306,7 @@ var t = {
   "gacha_minigame": [
     {
       "s": null,
-      "h": "A toy capsule machine. Try your luck for $3.00? \\$",
+      "h": "A toy capsule machine. Try your luck for $3.00? [current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -58199,7 +58199,7 @@ var t = {
     },
     {
       "s": "BROWS",
-      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHHHHH<span class=\"s6\">HHHHHHH!!!\\LECLEAR</span></span>",
+      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHHHHH<span class=\"s6\">HHHHHHH!!!</span></span>",
       "b": null,
       "fs": null,
       "fi": null
@@ -58276,7 +58276,7 @@ var t = {
     },
     {
       "s": "BROWS",
-      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHHHHH<span class=\"s6\">HHHHHHH!!!\\LECLEAR</span></span>",
+      "h": "<span class=\"sinv\">AAAHHH<span class=\"s5\">HHHHHHHH<span class=\"s6\">HHHHHHH!!!</span></span>",
       "b": null,
       "fs": null,
       "fi": null
@@ -58465,7 +58465,7 @@ var t = {
     },
     {
       "s": "BROWS",
-      "h": "<span class=\"s5\"><span class=\"sinv\">AAAHHH<span class=\"s6\">HHHHHHHH<span class=\"s7\">HHHHHHH!!!\\LECLEAR</span></span></span>",
+      "h": "<span class=\"s5\"><span class=\"sinv\">AAAHHH<span class=\"s6\">HHHHHHHH<span class=\"s7\">HHHHHHH!!!</span></span></span>",
       "b": null,
       "fs": null,
       "fi": null
@@ -58955,14 +58955,14 @@ var t = {
     },
     {
       "s": "LIFE JAM GUY",
-      "h": "Very good, yes?<br>Now... Would you like to buy some <span class=\"c3\">LIFE JAM</span>?<br>It will only cost you 250 CLAMS.\\$",
+      "h": "Very good, yes?<br>Now... Would you like to buy some <span class=\"c3\">LIFE JAM</span>?<br>It will only cost you 250 CLAMS.[current currency]",
       "b": null,
       "fs": null,
       "fi": null
     },
     {
       "s": "LIFE JAM GUY",
-      "h": "Would you like to buy some <span class=\"c3\">LIFE JAM</span>?<br>It will only cost you 250 CLAMS.\\$",
+      "h": "Would you like to buy some <span class=\"c3\">LIFE JAM</span>?<br>It will only cost you 250 CLAMS.[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -60494,21 +60494,21 @@ var t = {
     },
     {
       "s": "GALLIPOT",
-      "h": "Would you like some fresh <span class=\"c3\">ORANGE JUICE</span> for 150 CLAMS?\\$",
+      "h": "Would you like some fresh <span class=\"c3\">ORANGE JUICE</span> for 150 CLAMS?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
     },
     {
       "s": "GALLIPOT",
-      "h": "Would you like some fresh <span class=\"c3\">PEACH SODA</span> for 130 CLAMS?\\$",
+      "h": "Would you like some fresh <span class=\"c3\">PEACH SODA</span> for 130 CLAMS?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
     },
     {
       "s": "GALLIPOT",
-      "h": "Would you like some fresh <span class=\"c3\">MILK</span> for 150 CLAMS?\\$",
+      "h": "Would you like some fresh <span class=\"c3\">MILK</span> for 150 CLAMS?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -73295,7 +73295,7 @@ var t = {
     },
     {
       "s": "APPLE GUY",
-      "h": "So... Would you like to buy some <span class=\"c3\">APPLE JUICE</span> for $2.00?\\$",
+      "h": "So... Would you like to buy some <span class=\"c3\">APPLE JUICE</span> for $2.00?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -73458,7 +73458,7 @@ var t = {
     },
     {
       "s": "ORANGE GUY",
-      "h": "So... Would you like to buy some <span class=\"c3\">ORANGE JUICE</span> for $2.00?\\$",
+      "h": "So... Would you like to buy some <span class=\"c3\">ORANGE JUICE</span> for $2.00?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -74440,7 +74440,7 @@ var t = {
     },
     {
       "s": null,
-      "h": "How much will you give?\\$",
+      "h": "How much will you give?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -84266,7 +84266,7 @@ var t = {
     },
     {
       "s": "POPCORN GIRL",
-      "h": "\\$Heya, you want some popcorn? It&#39;s 80 CLAMS.",
+      "h": "[current currency]Heya, you want some popcorn? It&#39;s 80 CLAMS.",
       "b": null,
       "fs": null,
       "fi": null
@@ -84406,21 +84406,21 @@ var t = {
     },
     {
       "s": "GATOR GUY",
-      "h": "How&#39;s \\v[1012] CLAMS sound?\\$",
+      "h": "How&#39;s \\v[1012] CLAMS sound?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
     },
     {
       "s": "GATOR GUY",
-      "h": "How&#39;s \\v[1001] CLAMS sound?\\$",
+      "h": "How&#39;s \\v[1001] CLAMS sound?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
     },
     {
       "s": "GATOR GUY",
-      "h": "How&#39;s \\v[979] CLAMS sound?\\$",
+      "h": "How&#39;s \\v[979] CLAMS sound?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -86265,7 +86265,7 @@ var t = {
     },
     {
       "s": null,
-      "h": "Do you want to throw 10 CLAMS into the lake?\\$",
+      "h": "Do you want to throw 10 CLAMS into the lake?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -88519,7 +88519,7 @@ var t = {
     },
     {
       "s": "TOLL GATOR",
-      "h": "\\v[1012] CLAMS is my final offer!<br>C&#39;mon! You gotta take it!\\$",
+      "h": "\\v[1012] CLAMS is my final offer!<br>C&#39;mon! You gotta take it![current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -88596,7 +88596,7 @@ var t = {
     },
     {
       "s": "TOLL GATOR",
-      "h": "So you want me to open the gate, huh?<br>It would be my pleasure! It&#39;ll only cost ya 2000 CLAMS.\\$",
+      "h": "So you want me to open the gate, huh?<br>It would be my pleasure! It&#39;ll only cost ya 2000 CLAMS.[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -88659,7 +88659,7 @@ var t = {
     },
     {
       "s": "TOLL GATOR",
-      "h": "So you want me to open the gate for you?<br>It&#39;ll only cost ya 5000 CLAMS.\\$",
+      "h": "So you want me to open the gate for you?<br>It&#39;ll only cost ya 5000 CLAMS.[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -88722,7 +88722,7 @@ var t = {
     },
     {
       "s": "TOLL GATOR",
-      "h": "So you want me to open the gate for you?<br>It&#39;ll only cost ya 10000 CLAMS.\\$",
+      "h": "So you want me to open the gate for you?<br>It&#39;ll only cost ya 10000 CLAMS.[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -88778,7 +88778,7 @@ var t = {
     },
     {
       "s": "TOLL GATOR",
-      "h": "Well, I&#39;m gonna to be real with you... These toll prices are jacked. It&#39;s gonna cost you 3000 CLAMS but I&#39;d find another way around if I were you.<br>So you still want me to open the gate?\\$",
+      "h": "Well, I&#39;m gonna to be real with you... These toll prices are jacked. It&#39;s gonna cost you 3000 CLAMS but I&#39;d find another way around if I were you.<br>So you still want me to open the gate?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -88820,7 +88820,7 @@ var t = {
     },
     {
       "s": "TOLL GATOR",
-      "h": "Hey, you&#39;re back! Toll is 3000 CLAMS, same as always.\\$",
+      "h": "Hey, you&#39;re back! Toll is 3000 CLAMS, same as always.[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -90698,7 +90698,7 @@ var t = {
     },
     {
       "s": "SHOPKEEP",
-      "h": "They usually go for $25.00... but you seem like just the right guy for this one... so I&#39;ll let it go for $10.00! Whaddya say?\\$",
+      "h": "They usually go for $25.00... but you seem like just the right guy for this one... so I&#39;ll let it go for $10.00! Whaddya say?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -91482,7 +91482,7 @@ var t = {
     },
     {
       "s": null,
-      "h": "Do you want to play this game?\\$",
+      "h": "Do you want to play this game?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -92392,7 +92392,7 @@ var t = {
     },
     {
       "s": "SHOPKEEP",
-      "h": "Yo, champs! I see you are interested in that <span class=\"c4\">CD</span>. How&#39;s $10.00 sound?\\$",
+      "h": "Yo, champs! I see you are interested in that <span class=\"c4\">CD</span>. How&#39;s $10.00 sound?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
@@ -92728,7 +92728,7 @@ var t = {
     },
     {
       "s": null,
-      "h": "How much do you want to donate?\\$",
+      "h": "How much do you want to donate?[current currency]",
       "b": null,
       "fs": null,
       "fi": null
