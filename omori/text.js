@@ -1752,7 +1752,7 @@ var t = {
     },
     {
       "Speaker": "KEL",
-      "Html": "What&#39;s with her?<br><span class=\"s5\">\\Sinv[1]HEY ROSA, CAN YOU HEAR US!?</span></span>"
+      "Html": "What&#39;s with her?<br><span class=\"s5\"><span class=\"sinv\">HEY ROSA, CAN YOU HEAR US!?</span></span>"
     },
     {
       "Speaker": "HERO",
@@ -2282,7 +2282,7 @@ var t = {
   "09_cutscenes_hobbeez": [
     {
       "Speaker": "???",
-      "Html": "\\Sinv[1]Helllooooo... Helllloooooooooooo?<br>SUNNY? Are you there?</span>"
+      "Html": "<span class=\"sinv\">Helllooooo... Helllloooooooooooo?<br>SUNNY? Are you there?</span>"
     },
     {
       "Speaker": "???",
@@ -6902,7 +6902,7 @@ var t = {
     },
     {
       "Speaker": null,
-      "Html": "\\jaw\\Sinv[2]<span class=\"s5\"><span class=\"s6\">JAWHAW<span class=\"s7\">HAWHAW<span class=\"s8\">HAWHAW!!\\Sinv[0]</span></span></span></span>"
+      "Html": "\\jaw<span class=\"sinv\"><span class=\"s5\"><span class=\"s6\">JAWHAW<span class=\"s7\">HAWHAW<span class=\"s8\">HAWHAW!!</span></span></span></span></span>"
     },
     {
       "Speaker": "HERO",
@@ -28492,7 +28492,7 @@ var t = {
     },
     {
       "Speaker": "???",
-      "Html": "\\Sinv[1]Helllooooo... Helllloooooooooooo? Is anyone there?"
+      "Html": "<span class=\"sinv\">Helllooooo... Helllloooooooooooo? Is anyone there?"
     },
     {
       "Speaker": null,
@@ -38054,7 +38054,7 @@ var t = {
     },
     {
       "Speaker": "COFFEE MACHINE",
-      "Html": "<span class=\"s5\">\\Sinv[1]C-C-C-CONGRATULATIONS!!\\Sinv[1]</span><br>Your <span class=\"c3\">COFFEE</span> is ready!"
+      "Html": "<span class=\"s5\"><span class=\"sinv\">C-C-C-CONGRATULATIONS!!<span class=\"sinv\"></span><br>Your <span class=\"c3\">COFFEE</span> is ready!"
     },
     {
       "Speaker": "COFFEE MACHINE",
@@ -38414,7 +38414,7 @@ var t = {
     },
     {
       "Speaker": null,
-      "Html": "\\jaw\\Sinv[2]<span class=\"s5\"><span class=\"s6\">JAWHAW<span class=\"s7\">HAWHAW<span class=\"s8\">HAWHAW!!\\Sinv[0]</span></span></span></span>"
+      "Html": "\\jaw<span class=\"sinv\"><span class=\"s5\"><span class=\"s6\">JAWHAW<span class=\"s7\">HAWHAW<span class=\"s8\">HAWHAW!!</span></span></span></span></span>"
     },
     {
       "Speaker": "HUMPHREY",
@@ -38672,7 +38672,7 @@ var t = {
     },
     {
       "Speaker": "TOPHAT GHOST",
-      "Html": "Now...<br><span class=\"s5\">\\Sinv[1]LET THE FESTIVITIES BEGIN!!</span>\\Sinv[0]"
+      "Html": "Now...<br><span class=\"s5\"><span class=\"sinv\">LET THE FESTIVITIES BEGIN!!</span></span>"
     },
     {
       "Speaker": "BEARD GHOST",
@@ -53942,7 +53942,7 @@ var t = {
     },
     {
       "Speaker": "PLUTO",
-      "Html": "<span class=\"s5\">\\Sinv[1]WHEN I <span class=\"c1\">FLEX</span>, I FEEL MY BEST!!</span>\n"
+      "Html": "<span class=\"s5\"><span class=\"sinv\">WHEN I <span class=\"c1\">FLEX</span>, I FEEL MY BEST!!</span>\n"
     },
     {
       "Speaker": "PLUTO",
@@ -53950,11 +53950,11 @@ var t = {
     },
     {
       "Speaker": "KEL",
-      "Html": "<span class=\"s5\">\\Sinv[1]WHEN I <span class=\"c1\">FLEX</span>,</span> I feel <span class=\"s3\">my...\n</span>"
+      "Html": "<span class=\"s5\"><span class=\"sinv\">WHEN I <span class=\"c1\">FLEX</span>,</span> I feel <span class=\"s3\">my...\n</span>"
     },
     {
       "Speaker": "KEL",
-      "Html": "\\Sinv[1]Best?\n"
+      "Html": "<span class=\"sinv\">Best?\n"
     },
     {
       "Speaker": "KEL",
