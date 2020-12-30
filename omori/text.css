@@ -16,7 +16,7 @@ div.textbox {
     background: black;
     color: white;
     white-space: pre-wrap;
-    word-break: break-all;
+    /* word-break: break-all; */
     width: 350px;
     padding: 4px;
     border: 2px solid white;
