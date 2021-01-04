@@ -7,9 +7,9 @@
     <link rel="stylesheet" type="text/css" href="map.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>OMORI map</title>
+    <title>OMORI variables</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="OMORI map">
+    <meta name="description" content="OMORI variables">
     <meta name="keywords" content="OMORI, text, dialogue, speech">
 </head>
 <body>
@@ -17,9 +17,12 @@
 
 <h2>OMORI Map: <span id="mapName"></span></h2>
 <br />
-<div class="mapcontainer">
-    <img id="mapImg" alt="map"/>
+<div class="mapcontainer" id="mapcontainer">
+    <img id="mapImg" alt="map" class="tilemap"/>
 </div>
+
+<pre class="eventData" id="eventData">Click on an event to show its data.</pre>
+
 <script>
     const mapId = window.location.hash.substr(1);
     console.log("Loading map " + mapId);
@@ -41,13 +44,69 @@
 
                 const mapName = document.getElementById("mapName");
                 mapName.innerText = document.thisMap.Name;
+
+                var container = document.getElementById("mapcontainer");
+
+                for (var i = 0; i < document.thisMap.DataMap.events.length; i++) {
+                    const e = document.thisMap.DataMap.events[i];
+                    if (e == null)
+                        continue;
+
+                    var defaultPage = e.pages[0];
+
+                    console.log(e.name);
+
+                    var div = document.createElement('div');
+                    div.title = e.name;
+                    
+
+                    div.classList.add("mapEvent");
+
+                    div.addEventListener('click', function (event) {
+                        setEvent(event.target.id); 
+                    });
+
+                    var img = document.createElement('img');
+                    img.src = "map/e.png";
+                    img.classList.add("mapEventImg");
+                    div.style = "top: " + (e.y * 32) + "px; left: " + (e.x * 32) + "px;";
+                    img.alt = e.name;
+                    img.id = "event" + i;
+
+                    div.appendChild(img);
+
+                    container.appendChild(div);
+                }
             }
         }
     };
 
     xhr.send(null);
 
-    
+    function setEvent(id){
+        console.log(id);
+        var cont = document.getElementById("eventData");
+        eventData.innerHTML = syntaxHighlight(JSON.stringify(document.thisMap.DataMap.events[id.substr(5)], null, 2));
+    }
+
+    function syntaxHighlight(json) {
+    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        var cls = 'number';
+        if (/^"/.test(match)) {
+            if (/:$/.test(match)) {
+                cls = 'key';
+            } else {
+                cls = 'string';
+            }
+        } else if (/true|false/.test(match)) {
+            cls = 'boolean';
+        } else if (/null/.test(match)) {
+            cls = 'null';
+        }
+        return '<span class="' + cls + '">' + match + '</span>';
+    });
+}
 </script>
 <noscript>
     <p>dude, you gotta have js on! wow!</p>

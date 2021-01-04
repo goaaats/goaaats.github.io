@@ -3,4 +3,30 @@ div.mapcontainer {
     overflow-x: scroll;
     white-space: nowrap;
     height: 650px;
+    position: relative;
 }
+
+img.tilemap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+div.mapEvent {
+    position: absolute;
+}
+
+img.mapEventImg {
+    position: absolute;
+    z-index: 2;
+}
+
+pre.eventData {outline: 1px solid #4d4d4d; background-color: #fff; padding: 5px; margin: 5px; 
+    font-family: monospace;
+    font-size: 15px;}
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
