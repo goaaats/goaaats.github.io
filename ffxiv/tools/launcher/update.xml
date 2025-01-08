@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<item>
-    <version>9.9.9.9</version>
-    <url>http://goaaats.github.io/ffxiv/tools/launcher/xivlauncher-latest.zip</url>
-    <changelog>https://goaaats.github.io/ffxiv/tools/launcher</changelog>
-    <mandatory mode="2">true</mandatory>
-</item>
